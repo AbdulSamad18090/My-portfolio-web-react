@@ -2,7 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import Typed from "react-typed";
 
-export default function Introduction() {
+export default function Introduction(props) {
   return (
     <div className="sm:grid grid-cols-2 md:m-10 m-2">
       <div className="">
@@ -39,7 +39,7 @@ export default function Introduction() {
         </NavLink>
       </div>
 
-      <img className="h-[350px] w-[100%] md:pl-10" src="/images/hero.svg" alt="img" />
+      <img className="h-[350px] w-[100%] md:pl-10" src={props.image} alt="img" />
     </div>
   );
 }
