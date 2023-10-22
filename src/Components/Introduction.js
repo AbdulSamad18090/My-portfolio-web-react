@@ -5,7 +5,7 @@ import Typed from "react-typed";
 export default function Introduction() {
   return (
     <div className="sm:grid grid-cols-2 md:m-10 m-2">
-      <div>
+      <div className="">
         <p className="text-[#6254f3] my-0 py-0">THIS IS ME</p>
         <h1 className="font-extrabold md:text-[60px] text-[30px] my-0 py-0">
           ABDUL SAMAD
